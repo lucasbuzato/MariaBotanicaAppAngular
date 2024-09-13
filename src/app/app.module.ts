@@ -8,6 +8,12 @@ import { MarketPlaceScreenComponent } from './market-place-screen/market-place-s
 import { CardComponent } from './card/card.component';
 import { CarrinhoScreenComponent } from './carrinho-screen/carrinho-screen.component';
 import { FavoritosScreenComponent } from './favoritos-screen/favoritos-screen.component';
+import { ListatemperosComponent } from './listatemperos/listatemperos.component';
+import { PaginatemperosComponent } from './paginatemperos/paginatemperos.component';
+import { ListachasComponent } from './listachas/listachas.component';
+import { ListamudasComponent } from './listamudas/listamudas.component';
+import { PaginachasComponent } from './paginachas/paginachas.component';
+import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { FavoritosScreenComponent } from './favoritos-screen/favoritos-screen.co
     MarketPlaceScreenComponent,
     CardComponent,
     CarrinhoScreenComponent,
-    FavoritosScreenComponent
+    FavoritosScreenComponent,
+    ListatemperosComponent,
+    PaginatemperosComponent,
+    ListachasComponent,
+    ListamudasComponent,
+    PaginachasComponent,
+    PaginamudasComponent
   ],
   imports: [
     BrowserModule,
