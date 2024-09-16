@@ -1,0 +1,89 @@
+main{
+  font-family:'MyFont';
+}
+header{
+  display: flex; justify-content: center;align-items: center;justify-content: space-between; padding: 35px;
+}
+.marketplacetext{
+  border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130
+}
+.botoes{
+  display: flex;
+  flex-direction: row;
+}
+.favoritos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 67px;
+   height: 65px;
+    background-color: #DC4200;
+    border: none;
+    border-radius: 24px;
+    box-shadow:10px 5px 5px rgba(0, 0, 255, .2)
+}
+.carrinho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 67px;height: 65px;
+  margin-left:30px;
+  background-color:#A1C130 ;
+  border: none;
+  border-radius: 24px;
+  box-shadow:10px 5px 5px rgba(0, 0, 255, .2)
+}
+.image{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.imagefoto{
+  width: 380px;
+  flex-direction: row;
+  flex-direction: row
+}
+.categorias{
+  display: flex;
+  margin-top: 20px;
+}
+.botao1{
+  flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100px;height: 100px; margin-left:40px; background-color:#DC9100 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)
+
+}
+.botao2{
+  flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100px;height: 100px; margin-left:30px; background-color:#DC9100 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)
+}
+.categoriaimg{
+  width: 50px; height: 50px;
+}
+.categoriatext{
+  color: white; height: 0;font-size: 16px; margin-top: 10px;
+}
+.Produtos{
+  display: flex;margin-left: 35px;margin-top: 20px;;width:114px ;
+}
+.produtostext{
+  border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130;
+}
+.card{
+  display: flex; margin-left: 30px;
+}
+.cardcinza{
+  display:inline-block;margin-top: 23px
+}
+.cardlaranja{
+  position: absolute; margin-left: 20px;
+}
+.cardtext{
+  position: absolute; top: 760px;right: 320px;
+}
+.text1{
+  font-weight: bold;font-size: 20px; margin: 0;color: white;
+}
+.text2{
+  font-size: 16px;margin: 0;color: white;
+}
+.cardmais{
+  position: absolute;left: 160px;bottom: 129px;
+}

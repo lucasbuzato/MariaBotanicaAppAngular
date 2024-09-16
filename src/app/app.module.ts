@@ -17,6 +17,7 @@ import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
 import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagina.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     PaginamudasComponent,
     MinhasPlantasComponent,
     MinhaplantapaginaComponent,
-    PerfilComponent
+    PerfilComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

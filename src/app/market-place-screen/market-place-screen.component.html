@@ -1,54 +1,57 @@
 
-<main style="font-family:'MyFont';">
-  <div style="display: flex; justify-content: center;align-items: center;justify-content: space-between; padding: 35px;">
-    <p style="border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130 ;">MarketPlace</p>
-    <div style="display: flex;flex-direction: row;" >
-      <button routerLink="/favoritos" style="display: flex;justify-content: center;align-items: center; width: 67px;height: 65px; background-color: #DC4200;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)"><img src="Icon (2).png" alt=""></button>
-      <button routerLink="/carrinho" style="display: flex;justify-content: center;align-items: center;width: 67px;height: 65px; margin-left:30px; background-color:#A1C130 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)"><img src="Group 31.png" alt=""></button>
+<main>
+  <header>
+    <p class="marketplacetext">MarketPlace</p>
+    <div class="botoes" >
+      <button routerLink="/favoritos" class="favoritos"><img src="Icon (2).png" alt=""></button>
+      <button routerLink="/carrinho" class="carrinho"><img src="Group 31.png" alt=""></button>
 
     </div>
+  </header>
+
+  <div class="image">
+    <img class="imagefoto" src="Group 205.png" alt="">
   </div>
-  <div style="display: flex;justify-content: center;margin-left: 10px;">
 
-    <img style="width: 380px;flex-direction: row;flex-direction: row" src="Group 205.png" alt="">
-  </div>
-  <div style="display: flex;margin-top: 20px;">
-
-
-
-    <button routerLink="/listatemperos" style="flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100px;height: 100px; margin-left:40px; background-color:#DC9100 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)">
-      <img style="width: 50px; height: 50px;" src="3854169 1.png" alt="">
-      <p style="color: white; height: 0;font-size: 16px; margin-top: 10px;">Temperos</p>
+  <div class="categorias">
+    <button routerLink="/listatemperos" class="botao1">
+      <img class="categoriaimg" src="3854169 1.png" alt="">
+      <p class="categoriatext">Temperos</p>
     </button>
 
-    <button routerLink="/listachas" style="flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100px;height: 100px; margin-left:30px; background-color:#DC9100 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)">
-      <img style="width: 50px; height: 50px;" src="1618977 1.png" alt="">
-      <p style="color: white;height: 0;font-size: 16px; margin-top: 10px;">Chás</p>
+    <button routerLink="/listachas" class="botao2">
+      <img class="categoriaimg" src="1618977 1.png" alt="">
+      <p class="categoriatext">Chás</p>
     </button>
-    <button routerLink="/listamudas" style="flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100px;height: 100px; margin-left:30px; background-color:#DC9100 ;border: none;border-radius: 24px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2)">
-      <img style="width: 50px; height: 50px;" src="9421991 1.png" alt="">
-      <p style="color: white;height: 0;font-size: 16px; margin-top: 10px;">Mudas</p>
+    <button routerLink="/listamudas" class="botao2">
+      <img class="categoriaimg" src="9421991 1.png" alt="">
+      <p class="categoriatext">Mudas</p>
     </button>
   </div>
+
+
 
   <div>
-    <div style="display: flex;margin-left: 35px;margin-top: 20px;;width:114px ;">
-      <p style="border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130 ;">Produtos</p>
+    <div class="Produtos">
+      <p class="produtostext">Produtos</p>
     </div>
-    <div style="display: flex; margin-left: 30px;">
-      <img style="display:inline-block;margin-top: 23px" src="Rectangle 64.png" alt="">
-      <img style="position: absolute; margin-left: 20px;" src="Subtract.png" alt="">
 
-      <div style="display: flex;flex-direction: row;align-items: center;">
-      <div style="position: absolute; top: 760px;right: 320px; ">
-        <p style="font-weight: bold;font-size: 20px; margin: 0;color: white;">Lorem</p>
-        <p style="font-size: 16px;margin: 0;color: white;">R$10</p>
+    <div class="card">
+      <img class="cardcinza" src="Rectangle 64.png" alt="">
+      <img class="cardlaranja" src="Subtract.png" alt="">
+
+      <div>
+      <div class="cardtext">
+        <p class="text1">Lorem</p>
+        <p class="text2">R$10</p>
       </div>
     </div>
   </div>
-    <img style="position: absolute;left: 160px;bottom: 129px;" src="16019775 1.png" alt="">
+    <img class="cardmais" src="16019775 1.png" alt="">
   </div>
 </main>
+
+
 <footer style="width: 100%; position:fixed;;bottom: 0px;background-color: #191919;border-radius: 24px 24px 0px 0px;">
   <div style="display: flex; justify-content: space-around;padding: 5px ">
 
