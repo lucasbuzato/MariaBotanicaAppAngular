@@ -12,6 +12,7 @@ import { ListachasComponent } from './listachas/listachas.component';
 import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 import { ListamudasComponent } from './listamudas/listamudas.component';
 import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'paginachas', component: PaginachasComponent },
   { path: 'minhasplantas', component: MinhasPlantasComponent },
   { path: 'minhasplantaspagina', component: MinhaplantapaginaComponent },
+  { path: 'perfil', component: PerfilComponent},
 
 ];
 

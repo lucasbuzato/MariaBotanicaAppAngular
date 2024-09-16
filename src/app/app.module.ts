@@ -16,6 +16,7 @@ import { PaginachasComponent } from './paginachas/paginachas.component';
 import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
 import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagina.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagin
     PaginachasComponent,
     PaginamudasComponent,
     MinhasPlantasComponent,
-    MinhaplantapaginaComponent
+    MinhaplantapaginaComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
