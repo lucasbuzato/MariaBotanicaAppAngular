@@ -1,3 +1,4 @@
+import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagina.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MarketPlaceScreenComponent } from './market-place-screen/market-place-screen.component';
@@ -10,6 +11,7 @@ import { PaginachasComponent } from './paginachas/paginachas.component';
 import { ListachasComponent } from './listachas/listachas.component';
 import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 import { ListamudasComponent } from './listamudas/listamudas.component';
+import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent },
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'paginamudas', component: PaginamudasComponent },
   { path: 'listachas', component: ListachasComponent },
   { path: 'paginachas', component: PaginachasComponent },
+  { path: 'minhasplantas', component: MinhasPlantasComponent },
+  { path: 'minhasplantaspagina', component: MinhaplantapaginaComponent },
 
 ];
 

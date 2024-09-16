@@ -14,6 +14,8 @@ import { ListachasComponent } from './listachas/listachas.component';
 import { ListamudasComponent } from './listamudas/listamudas.component';
 import { PaginachasComponent } from './paginachas/paginachas.component';
 import { PaginamudasComponent } from './paginamudas/paginamudas.component';
+import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
+import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagina.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PaginamudasComponent } from './paginamudas/paginamudas.component';
     ListachasComponent,
     ListamudasComponent,
     PaginachasComponent,
-    PaginamudasComponent
+    PaginamudasComponent,
+    MinhasPlantasComponent,
+    MinhaplantapaginaComponent
   ],
   imports: [
     BrowserModule,
