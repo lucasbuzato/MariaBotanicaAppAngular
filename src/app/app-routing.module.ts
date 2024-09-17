@@ -13,6 +13,9 @@ import { PaginamudasComponent } from './paginamudas/paginamudas.component';
 import { ListamudasComponent } from './listamudas/listamudas.component';
 import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { CriarComponent } from './criar/criar.component';
+import { LoginComponent } from './login/login.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent },
@@ -27,8 +30,10 @@ const routes: Routes = [
   { path: 'paginachas', component: PaginachasComponent },
   { path: 'minhasplantas', component: MinhasPlantasComponent },
   { path: 'minhasplantaspagina', component: MinhaplantapaginaComponent },
+  { path: 'criar', component: CriarComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'perfil', component: PerfilComponent},
-
+  { path: 'chatbot', component: ChatbotComponent },
 ];
 
 @NgModule({

@@ -22,6 +22,9 @@ import { TitcadComponent } from './titcad/titcad.component';
 import { CardchasComponent } from './cardchas/cardchas.component';
 import { CardmudasComponent } from './cardmudas/cardmudas.component';
 import { CardtemeprosComponent } from './cardtemepros/cardtemepros.component';
+import { CriarComponent } from './criar/criar.component';
+import { LoginComponent } from './login/login.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { CardtemeprosComponent } from './cardtemepros/cardtemepros.component';
     TitcadComponent,
     CardchasComponent,
     CardmudasComponent,
-    CardtemeprosComponent
+    CardtemeprosComponent,
+    CriarComponent,
+    LoginComponent,
+    ChatbotComponent
   ],
   imports: [
     BrowserModule,
