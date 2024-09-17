@@ -1,0 +1,45 @@
+.divtexto{
+  display: flex;flex-direction: column;margin-top: 260px;padding: 35px;
+}
+.titulo{
+  font-weight: bold;font-size: 24px;margin: 0px;
+}
+.texto{
+  font-weight: bold;font-size: 18px;color: #5C5858;
+}
+.caixaverde{
+  background-color: #A1C130;border-radius: 24px 24px 0px 0px;
+}
+.imgsub{
+  display: flex;flex-direction: row; justify-content: space-evenly;padding-top:30px;height:150px ;align-items: flex-start"
+}
+.solzin{
+  display: flex;flex-direction: column;align-items: center;margin-bottom: 20px;
+}
+.solzintitle{
+  font-weight:bold;font-size: 14px;color: #ffff;
+}
+.chuva{
+  display: flex;flex-direction: column;align-items: center
+}
+.chuvatitle{
+  font-weight:bold;font-size: 14px;color: #ffff;
+}
+.botoes{
+  position: relative;top: -40px;display: flex;justify-content: space-around
+}
+.botaoverde{
+  display: flex;justify-content: center;align-items: center;width: 147px;height: 76px;background-color: #6DE359;border: none;border-radius: 151px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2);
+}
+.botaotexto{
+  font-weight: bold;color: #FFFFFF;font-size: 20px;
+}
+.botaolaranja{
+  width: 204px;height: 73px;background-color: #DC9100;border: none;border-radius: 151px;box-shadow:10px 5px 5px rgba(0, 0, 255, .2);
+}
+.textolaranja{
+  display: flex;align-items: center;justify-content:center ; font-weight: bold;color: #FFFFFF;font-size: 20px;
+}
+.imglaranja{
+  padding: 2px; width: 32px;height: 32px;
+}

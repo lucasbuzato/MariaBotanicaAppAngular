@@ -18,6 +18,7 @@ import { MinhasPlantasComponent } from './minhas-plantas/minhas-plantas.componen
 import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagina.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { FooterComponent } from './footer/footer.component';
+import { TitcadComponent } from './titcad/titcad.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     MinhasPlantasComponent,
     MinhaplantapaginaComponent,
     PerfilComponent,
-    FooterComponent
+    FooterComponent,
+    TitcadComponent
   ],
   imports: [
     BrowserModule,
