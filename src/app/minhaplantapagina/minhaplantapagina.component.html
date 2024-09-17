@@ -1,43 +1,53 @@
-<body style="font-family:'MyFont';background-color: #E7E7E7;margin: 0px;">
+<body>
+
 <header>
-  <div style="display: flex;justify-content: space-between;align-items: center; padding: 30px;">
-    <button routerLink="/minhasplantas"  style="display: flex;justify-content: center;align-items: center; width: 63px;height: 63px;border-radius: 100%;background-color:#DC9100 ;border: none;"><img src="Arrow 2.png" alt=""></button>
-    <p style="border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130 ;">Minhas Plantas</p>
+  <div class="head">
+    <button routerLink="/minhasplantas"  class="botao"><img src="Arrow 2.png" alt=""></button>
+    <p class="titulo">Minhas Plantas</p>
   </div>
 </header>
+
+
 <main>
-  <div style="display: flex;justify-content: space-around;align-items: center">
-    <div style=" display: flex;justify-content: center;align-items: center; width: 132px;height: 41px;background-color: #DC9100;border: 4px solid;border-color: #CCCCCC;border-radius: 12px;">
+  <div class="nomeplanta">
+    <div class="caixanome">
       <p>Caio</p>
     </div>
-    <img style="margin-right: 10px;" src="Group 38.png" alt="">
+    <img class="janela" src="Group 38.png" alt="">
   </div>
 
-  <div style="position: relative; bottom: 80px;">
-    <img style="position: absolute;" src="Planta.png" alt="">
-    <img style="position: relative;top: 170px;width: 200px;" src="Group 229.png" alt="">
+
+
+  <div class="suporteplanta">
+    <img class="planta" src="Planta.png" alt="">
+    <img class="suporte" src="Group 229.png" alt="">
   </div>
 
-  <div style="background-color: #A1C130;border-radius: 24px 24px 0px 0px; margin-top: 200px;">
-    <div style="display: flex;flex-direction: row; justify-content: space-evenly;padding-top:30px;height:225px ;align-items: flex-start">
-      <div style="display: flex;flex-direction: column;align-items: center">
 
-        <div style="background-color: #DC9100;border-radius: 12px;">
-          <p style="font-weight:bold;font-size: 14px;color: #ffff;padding: 10px;margin: 0px;">Já Reguei</p>
+
+
+  <div class="caixaverde">
+    <div class="caixa">
+      <div class="conteiner1">
+
+        <div class="titulolaranja">
+          <p class="reguei">Já Reguei</p>
         </div>
-        <img src="drop-silhouette 1.png" style="padding: 40px;"  alt="">
+        <img src="drop-silhouette 1.png" class="imgverde"  alt="">
 
       </div>
-    <div style="display: flex;flex-direction: column;align-items: center">
+    <div class="conteiner2">
 
-      <div style="background-color: #DC9100;border-radius: 12px;">
-        <p style="font-weight:bold;font-size: 14px;color: #ffff;padding: 10px;margin: 0px;">Já Tomou Sol</p>
+      <div class="titulolaranja">
+        <p class="reguei">Já Tomou Sol</p>
       </div>
-      <img style="padding: 40px;" src="sun 1.png" alt="">
+      <img src="sun 1.png" class="imgverde" alt="">
 
     </div>
     </div>
   </div>
+
+
 </main>
 <app-footer></app-footer>
 </body>

@@ -19,6 +19,9 @@ import { MinhaplantapaginaComponent } from './minhaplantapagina/minhaplantapagin
 import { PerfilComponent } from './perfil/perfil.component';
 import { FooterComponent } from './footer/footer.component';
 import { TitcadComponent } from './titcad/titcad.component';
+import { CardchasComponent } from './cardchas/cardchas.component';
+import { CardmudasComponent } from './cardmudas/cardmudas.component';
+import { CardtemeprosComponent } from './cardtemepros/cardtemepros.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { TitcadComponent } from './titcad/titcad.component';
     MinhaplantapaginaComponent,
     PerfilComponent,
     FooterComponent,
-    TitcadComponent
+    TitcadComponent,
+    CardchasComponent,
+    CardmudasComponent,
+    CardtemeprosComponent
   ],
   imports: [
     BrowserModule,

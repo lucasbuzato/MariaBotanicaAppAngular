@@ -1,53 +1,18 @@
 <main style="font-family:'MyFont';">
-  <div style="display: flex;justify-content: space-between;align-items: center; padding: 30px;">
-    <button routerLink="/marketplace"  style="display: flex;justify-content: center;align-items: center; width: 63px;height: 63px;border-radius: 100%;background-color:#DC9100 ;border: none;"><img src="Arrow 2.png" alt=""></button>
-    <p style="border-radius: 12px;padding:10px;color: white;font-size: 20px;background-color:#A1C130 ;">Carrinho</p>
-  </div>
+  <header >
+    <button routerLink="/marketplace"  class="botao"><img src="Arrow 2.png" alt=""></button>
+    <p class="titulo">Carrinho</p>
+  </header>
 
-  <div style="display: flex;justify-content: space-around">
-    <div style="display: flex;flex-direction: column;box-shadow:10px 5px 5px rgba(0, 0, 255, .2);border-radius: 24px;">
-
-      <div style="width:150.19px ;height:162px ;background-color: #EEEEEE;border-radius: 24px 24px 0px 0px;">
-      </div>
-
-      <div style="display: flex;flex-direction: row; width:150.19px ;height:46.09px ;background-color: #DC9100;border-radius: 0px 0px 24px 24px;align-items: center;">
-        <div style="display: flex;flex-direction: column;padding: 10px;">
-        <p style="font-size: 12px; margin: 0px;font-weight: bold;color: #C1D8BD;">Plantas</p>
-        <p style="font-size: 12px;margin: 0px;font-weight: bold;color: #FFFFFF;">Cycas Revoluta</p>
-      </div>
-        <p style="font: 14px; margin-left: 05px;color: #80FF6B;">
-          R$25
-        </p>
-      </div>
-
-
-    </div>
-
-    <div style="display: flex;flex-direction: column;box-shadow:10px 5px 5px rgba(0, 0, 255, .2);border-radius: 24px;">
-
-      <div style="width:150.19px ;height:162px ;background-color: #EEEEEE;border-radius: 24px 24px 0px 0px;">
-      </div>
-
-      <div style="display: flex;flex-direction: row; width:150.19px ;height:46.09px ;background-color: #DC9100;border-radius: 0px 0px 24px 24px;align-items: center;">
-        <div style="display: flex;flex-direction: column;padding: 10px;">
-        <p style="font-size: 12px; margin: 0px;font-weight: bold;color: #C1D8BD;">Plantas</p>
-        <p style="font-size: 12px;margin: 0px;font-weight: bold;color: #FFFFFF;">Cycas Revoluta</p>
-      </div>
-        <p style="font: 14px; margin-left: 05px;color: #80FF6B;">
-          R$25
-        </p>
-      </div>
-
-
-    </div>
-
-
+  <div class="card">
+    <app-cardchas></app-cardchas>
+    <app-cardmudas></app-cardmudas>
   </div>
 
 
-  <div style="display: flex;justify-content: center;margin-top: 400px;">
-  <button style="width: 204px;height: 73px;background-color: #DC9100;border: none;border-radius: 151px;">
-  <p style="font-weight: bold;color: #FFFFFF;font-size: 20px;">Pagar</p>
+  <div class="botaopagar">
+  <button class="pagar">
+  <p class="pagartext">Pagar</p>
   </button>
 </div>
 
